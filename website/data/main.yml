@@ -1,0 +1,9 @@
+---
+
+main:
+  - name: About
+    ref: "/about"
+    icon: "notification"
+    sub:
+      - name: Sebastian
+        ref: "/about/sebastian.md"
