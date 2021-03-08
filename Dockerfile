@@ -17,7 +17,7 @@ COPY ./website /site
 
 WORKDIR /site
 
-RUN /usr/bin/hugo
+RUN /usr/bin/hugo -D --debug
 
 FROM nginx:alpine
 
